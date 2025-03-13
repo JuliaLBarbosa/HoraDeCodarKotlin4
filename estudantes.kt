@@ -8,7 +8,7 @@ fun main(){
       println("Deseja continuar? S/N ")
       resposta = readln()
   } while(resposta != "pare")
-     println("O programa parou!")
+    println("O programa parou!")
     println("A quantidade dos alunos: ${estudantes.size} \n Os nomes dos estudantes são: $estudantes")
   }
 
